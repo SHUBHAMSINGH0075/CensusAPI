@@ -3,7 +3,7 @@ import csv
 import time
 
 # Census API key
-API_KEY = '48edb2e40ca9e42b1572c4bb4a46a18f8417fedf'
+API_KEY = 'Your_API_KEY'
 
 # ZIP codes and variable names
 zip_codes = ['53211']
