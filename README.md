@@ -1,8 +1,6 @@
 # CensusAPI
-The Census Bureau's Application Programming Interface (API) is a tool you can access.
-American Community Survey (ACS) data more efficiently.  
-It reduces the need for data storage and provides users with a set of standard commands to easily. 
-access statistics that can be incorporated into their programs and applications.
+The Census Bureau's Application Programming Interface (API) is a tool you can access American Community Survey (ACS) data more efficiently.  
+It reduces the need for data storage and provides users with a set of standard commands to easily access statistics that can be incorporated into their programs and applications.
 Instead of making a web browser query request, we are going to develop a Python program to fetch data from census API because:
 Automation: 
 A wrapper program allows you to automate the process of fetching data from the Census API, which can be useful if you need to fetch data for many different ZIP codes or variables.
