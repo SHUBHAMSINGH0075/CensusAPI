@@ -19,5 +19,10 @@ All API endpoints: https://api.census.gov/data/
 All 2020 API endpoints: https://api.census.gov/data/2020/
 Target cesnsus variable APIs (on ZIP data):
 2020 County Business Patterns (CBP) https://api.census.gov/data/2020/cbp/variables.html
-2020 ACS (America Community Survey-5 year) are here: https://api.census.gov/data/2020/acs/acs5/variables.html
-
+2020 ACS (America Community Survey-5 year) are here: https://api.census.gov/data/2020/acs/acs5/variables.htmlKe
+Program Description:
+API_KEY:
+Request a Secret Key from the United States Census Bureau: https://www.census.gov/data/developers.html
+In order to make API calls (just a fancy name for a web request asking for specific data), you will need to request a secret key from the US Census Bureau. Navigate to the census developers page and you should see “Request a Key”.
+Replace your_api_key_here with your actual Census API key. The code fetches data for the ZIP codes 53211 and 53154 and the variable names ESTAB, EMP, and PAYANN from the 2020 CBP data, and the variable names B19013_001E and B01002_001E from the 2020 ACS 5-year estimates. You can modify the zip_codes, cbp_variable_names, and acs_variable_names lists to fetch data for different ZIP codes and variable names.
+The program measures the elapsed time using the time module in Python and prints it to the console in seconds with two decimal places.
