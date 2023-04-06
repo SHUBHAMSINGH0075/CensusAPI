@@ -20,10 +20,4 @@ All 2020 API endpoints: https://api.census.gov/data/2020/
 Target cesnsus variable APIs (on ZIP data):
 2020 County Business Patterns (CBP) https://api.census.gov/data/2020/cbp/variables.html
 2020 ACS (America Community Survey-5 year) are here: https://api.census.gov/data/2020/acs/acs5/variables.html
-Current target:
-Write a wrapper program to access the Census API
-The progam can:
-Take in a list of ZIP code
-Take in optional API variable names (0 or more variable names)
-Get 2020 CBP and ACS outputs on a ZIP level
-Print out the collected data in a CSV file for checking.
+
